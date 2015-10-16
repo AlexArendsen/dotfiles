@@ -3,6 +3,7 @@ set autochdir
 set shiftwidth=2
 set softtabstop=2
 set expandtab
+set fillchars+=vert:\ 
 
 " Set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
