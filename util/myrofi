@@ -21,4 +21,4 @@ c_blue_d="66AABB"
 # --- APPLY XRES END
 
 width=`myres | cut -d 'x' -f 1`
-rofi -show run -width $width -fg "#$c_blue_d" -bg "#$c_background" -hlbg "#$c_black_l" -hlfg "#$c_blue_l" -bc "#$c_background" -location 6 -lines 8 -font "monospace 8" -padding 2 -separator-style none
+rofi -show run -width $width -fg "#$c_blue_d" -bg "#$c_background" -hlbg "#$c_black_l" -hlfg "#$c_blue_l" -bc "#$c_background" -location 0 -lines 8 -bw 0 -font "DejaVu Sans Mono 12" -padding 400 -separator-style none -opacity 85
