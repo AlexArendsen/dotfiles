@@ -37,53 +37,27 @@ gaps outer 12
 new_window pixel 2
 new_float pixel 2
 
-# Hybrid colors
-# set $back               #1d1F21
-# set $black              #282A2E
-# set $grey               #373B41
-# set $lightgrey          #707880
-# set $white              #C5C8C6
-# set $yellow             #F0C674
-# set $red                #CC6666
-# set $darkred            #A54242
-# set $green              #B5BD56
-# set $darkgreen          #FF0000 # (Not set)
-# set $lightteal          #FF0000 # (Not set)
-
-# Monokai
-# set $back                 #272822
-# set $black                #48483E
-# set $grey                 #76715E
-# set $lightgrey            #ACADA1
-# set $white                #F1EBEB
-# set $yellow               #E7DB75
-# set $red                  #FA2772
-# set $darkred              #DC2566
-# set $green                #A7E22E
-# set $darkgreen            #8FC029
-# set $lightteal            #66EFD5
-
 # Xresource-based. Do not edit manually, will be overwritten by script
 # --- APPLY XRES BEGIN
-set $c_green_l #BDE077
-set $c_yellow_l #FFE863
-set $c_magenta_d #F26B9E
-set $c_white_d #DDEEDD
-set $c_yellow_d #FEA63C
-set $c_cyan_l #9FE3BC
-set $c_red_d #BD4A4A
-set $c_background #131D24
-set $c_green_d #B7CE42
-set $c_magenta_l #ff5879
-set $c_red_l #CC6666
-set $c_black_d #25374A
-set $c_foreground #ddeedd
+set $c_black_d #1d2021
+set $c_red_l #fb4934
+set $c_black_l #504945
+set $c_magenta_d #b16286
+set $c_green_l #b8bb26
+set $c_cyan_d #689d6a
+set $c_white_l #fbf1c7
+set $c_yellow_l #fabd2f
+set $c_blue_d #458588
+set $c_yellow_d #d79921
+set $c_cyan_l #8ec07c
+set $c_green_d #98971a
+set $c_white_d #a89984
+set $c_blue_l #83a598
+set $c_red_d #cc241d
+set $c_magenta_l #d3869b
 set $c_cursor #a9a9a9
-set $c_cyan_d #72AD8C
-set $c_blue_l #AACCBB
-set $c_white_l #FFFFFF
-set $c_black_l #3A526B
-set $c_blue_d #66AABB
+set $c_foreground #ebdbb2
+set $c_background #282828
 # --- APPLY XRES END
 
 #class                  border        backgr.       text          split
