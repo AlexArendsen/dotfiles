@@ -16,4 +16,4 @@ cp ~/.vimrc dots/
 cp ~/.vromerc dots/
 cp ~/.bashrc dots/
 cp ~/.zshrc dots/
-
+cp ~/.xinitrc dots/
