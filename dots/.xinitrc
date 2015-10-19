@@ -3,7 +3,7 @@
 # sxhkd %
 # exec bspwm
 #
-compton --config /home/copper/.config/compton/compton.conf &
-/home/copper/.fehbg
+compton --config "$HOME/.config/compton/compton.conf" &
+update-wallpaper
 pulseaudio --start
 exec i3
