@@ -10,7 +10,6 @@
 import re
 import json
 import os
-import uuid
 from hex2x11 import BestMatch
 
 find_pat = re.compile("(?:([a-zA-Z0-9]+):\s*#(.{6}))")
@@ -222,7 +221,6 @@ replace_in_file(home+"/sbin/myrofi", "\n".join(arr))
 f = open(home+"/.config/sublime-text-3/Packages/Colorsublime-Themes/Xres-Generated.tmTheme", "w")
 template = open(home+"/.config/sublime-text-3/Packages/User/ApplyXres.template", "r")
 
-st_theme_id = str(uuid.uuid4())
 header = """<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -231,7 +229,7 @@ header = """<?xml version="1.0" encoding="UTF-8"?>
 \t<string>APPLYXRES Generated Theme</string>
 \t<key>settings</key>
 \t<array>
-""".format(st_theme_id)
+"""
 
 f.write(header)
 
@@ -283,7 +281,7 @@ while inDict > 0:
 footer = """\t</array>
 </dict>
 </plist>
-""".format(st_theme_id)
+"""
 
 f.write(footer)
 
