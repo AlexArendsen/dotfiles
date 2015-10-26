@@ -1,13 +1,13 @@
 settings:
   background                $c_background
   foreground                $c_foreground
-  caret                     $c_cursor
+  caret                     $c_red_l
   invisibles                $c_black_l
   lineHighlight             $c_white_l
-  selection                 $c_white_l
+  selection                 $c_black_l
   findHighlight             $c_red_l
   findHighlightForeground   $c_foreground
-  selectionBorder           $c_foreground
+  selectionBorder           $c_white_d
   activeGuide               $c_yellow_l
   bracketsForeground        $c_white_d
   bracketsOptions           $c_white_l
@@ -44,6 +44,7 @@ name Variables
 scope variable
 settings:
   fontStyle bold
+  foreground $c_red_l
 
 name Keyword
 scope keyword
@@ -58,8 +59,7 @@ settings:
 name Storage type
 scope storage.type
 settings:
-  fontStyle italic
-  foreground $c_blue_d
+  foreground $c_red_d
 
 name Class name
 scope entity.name.class
@@ -77,7 +77,7 @@ name Function name
 scope entity.name.function
 settings:
   fontStyle bold
-  foreground $c_cyan_l
+  foreground $c_yellow_l
 
 name Function argument
 scope variable.parameter
@@ -88,7 +88,7 @@ settings:
 name Tag name
 scope entity.name.tag
 settings:
-  foreground $c_cyan_d
+  foreground $c_red_d
 
 name Tag attribute
 scope entity.other.attribute-name
@@ -98,7 +98,7 @@ settings:
 name Library function
 scope support.function
 settings:
-  foreground $c_yellow_d
+  foreground $c_yellow_l
 
 name Library constant
 scope support.constant
@@ -109,8 +109,7 @@ settings:
 name Library class/type
 scope support.type, support,class
 settings:
-  fontStyle italic
-  foreground $c_yellow_l
+  foreground $c_yellow_d
 
 name Libary variable
 scope support.other.variables
