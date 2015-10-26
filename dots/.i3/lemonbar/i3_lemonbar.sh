@@ -36,6 +36,7 @@ conky -c $(dirname $0)/i3_lemonbar_conky > "${panel_fifo}" &
 cnt_vol=${upd_vol}
 cnt_mail=${upd_mail}
 cnt_mpd=${upd_mpd}
+cnt_bat=${upd_bat}
 
 while :; do
 
