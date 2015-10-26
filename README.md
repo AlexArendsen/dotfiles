@@ -2,6 +2,8 @@
 
 Welcome to my dotfiles!
 
+![You see an i3 configuration, it fills you with determination](http://i.imgur.com/xKbsGjp.png)
+
 This is the configuration I use for my laptop, which runs the
 **[i3-gaps window manager](https://github.com/Airblader/i3)** (a fork of i3) on
 **[Arch Linux](https://www.archlinux.org/)**.
