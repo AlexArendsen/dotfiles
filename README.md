@@ -105,8 +105,8 @@ My setup has three modes for wallpaper display:
 1. "Normal" -- One wallpaper is displayed all of the time.
 2. `DAY` -- A series of wallpapers cycle through the day, according to the
     output of the `timeofday` utility script.
-3. `RANDOM` -- (Not yet implemented) Will select a random image from a specified
-    directory at regular intervals.
+3. `RANDOM` -- Will select a random wallpaper from the directory linked by
+    `~/.wallpapers/random-src`.
 
 The latter two require a scheduled job to trigger the `update-wallpaper` script
 (described below). If you use systemd, you may simply review and install the
