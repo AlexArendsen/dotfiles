@@ -44,9 +44,10 @@ Linux-- I can't make any guarantees about its compatibility with other distros.
   with many plugins. Needed for `vim`, `tmux`, and shell styling.
 * [Powerline Fonts](https://github.com/powerline/fonts). I can't say too much
   on this. Fonts are a pain in Linux.
-* [electro7's terminusicons2mono](https://github.com/electro7/dotfiles/blob/master/.fonts/misc/terminusicons2mono.bdf)
   -- Icon font I use for lemonbar. Mostly because it's the only one I can get
   to work.
+* [Siji Icon Font](https://github.com/gstk/siji) -- Wonderful icon font I use for
+  lemonbar.
 * `pulseaudio` -- If you don't use / like pulseaudio, that's okay. You'll just have
   to do a little work yourself to get the volume scripts, media key bindings,
   and shell aliases to work for whatever setup you have.
